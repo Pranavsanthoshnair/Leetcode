@@ -1,4 +1,9 @@
-
+/*
+Leetcode Solution
+Problem No : 50
+Problem Name : Pow(x,n)
+Difficulty : Medium
+*/
 
 #include <iostream>
 using namespace std;
