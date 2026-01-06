@@ -5,7 +5,8 @@ Problem Name : Single Element in A Sorted Array
 Difficulty : Medium
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 class Solution {
@@ -41,7 +42,7 @@ public:
 };
 
 int main() {
-    vector<int> A = {1, 1, 2, 3, 3, 4, 4, 8, 8};
+    vector<int> A = {1,1,2,3,3,4,4,8,8};
     Solution obj;
     cout << obj.singleNonDuplicate(A);
     return 0;
