@@ -5,7 +5,9 @@ Problem Name : Peak Index in a Mountain Array
 Difficulty : Medium
 */
 
-#include <bits/stdc++.h>
+#include <iostream>                              
+#include <vector>
+// #include <bits/stdc++.h>  // Includes almost all C++ standard headers; convenient for competitive programming
 using namespace std;
 
 class Solution {
