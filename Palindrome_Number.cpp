@@ -1,7 +1,9 @@
-
-
-
-
+/*
+Leetcode Solution
+Problem No : 9
+Problem Name : Palindrome Number
+Difficulty : Easy
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
