@@ -5,6 +5,9 @@ Problem Name : Build Array From Permutation
 Difficulty : Easy
 */
 
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     vector<int> buildArray(vector<int>& nums) {
@@ -18,3 +21,16 @@ public:
         return ans;
     }
 };
+
+int main() {
+    Solution obj;
+
+    vector<int> nums = {0,2,1,5,3,4};
+    vector<int> ans = obj.buildArray(nums);
+
+    for(int x : ans){
+        cout << x << " ";
+    }
+
+    return 0;
+}
